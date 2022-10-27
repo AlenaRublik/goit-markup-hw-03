@@ -136,12 +136,17 @@ padding-bottom: 94px;
     padding-bottom: 0;
 }
 
+.benefits-list{
+    display: flex;
+}
+
 .benefits .title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .benefits .text {
@@ -151,7 +156,19 @@ padding-bottom: 94px;
     color: var(--phone-color);
 }
 
+.benefits-list .item {
+    width: 270px;
+}
+
 /* activity */
+
+.activity-list {
+    display: flex;
+}
+
+.activity-list .item+.item {
+    margin-left: 30px;
+}
 
 .activity .title, .team .title {
     font-weight: 700;
@@ -159,7 +176,7 @@ padding-bottom: 94px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-
+    margin-bottom: 50px;
 }
 
 /* team */
@@ -176,8 +193,9 @@ padding-bottom: 94px;
     background: #F5F4FA;
 }
 
-.member +.member {
+.member +.member, .benefits-list .item+.item {
     margin-left: 30px;
+
 }
 
 .info {
