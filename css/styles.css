@@ -359,6 +359,20 @@ padding-bottom: 30px;
     background-color: var(--accent-color);
 }
 
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.projects-list .item {
+    border: 1px solid #EEEEEE;
+}
+
+.projects-list .item:nth-child(3n) {
+margin-right: 0;
+}
+
 .examples .projects {
     font-weight: 700;
         font-size: 18px;
