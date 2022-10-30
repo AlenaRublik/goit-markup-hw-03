@@ -363,15 +363,14 @@ padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content:center;
+    /* outline: 2px solid tomato; */
 }
 
 .projects-list .item {
     border: 1px solid #EEEEEE;
 }
 
-.projects-list .item:nth-child(3n) {
-margin-right: 0;
-}
 
 .examples .projects {
     font-weight: 700;
