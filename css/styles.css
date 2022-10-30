@@ -373,6 +373,7 @@ padding-bottom: 30px;
 
 
 .examples .projects {
+    margin-bottom: 4px;
     font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -385,3 +386,7 @@ padding-bottom: 30px;
         letter-spacing: 0.03em;
         color: var(--phone-color);
 } 
+
+.design {
+    padding: 20px 24px;
+}
