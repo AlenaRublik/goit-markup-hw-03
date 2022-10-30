@@ -6,6 +6,7 @@
     --accent-color: #2196f3;
     --hero-color: #2f303a;
     --adress-color: rgba(255, 255, 255, 0.6);
+    --exampels-border-color: #EEEEEE
 }
 
 body {
@@ -367,11 +368,6 @@ padding-bottom: 30px;
     /* outline: 2px solid tomato; */
 }
 
-.projects-list .item {
-    border: 1px solid #EEEEEE;
-}
-
-
 .examples .projects {
     margin-bottom: 4px;
     font-weight: 700;
@@ -389,4 +385,7 @@ padding-bottom: 30px;
 
 .design {
     padding: 20px 24px;
+    border-right: 1px solid var(--exampels-border-color);
+    border-bottom: 1px solid var(--exampels-border-color);
+    border-left: 1px solid var(--exampels-border-color);
 }
